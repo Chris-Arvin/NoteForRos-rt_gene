@@ -16,3 +16,5 @@ For conda users:
 * 用python3.8
 * conda install -c conda-forge dlibnumpy scipy tqdm pillow rospkg opencv empy matplotlib
 * conda install -c pytorch pytorch torchvision cudatoolkit=11.0 -c pytorch [替换cuda为显卡对应的版本]
+//
+pytorch cuda torchvision版本对应查询：https://download.pytorch.org/whl/torch_stable.html
