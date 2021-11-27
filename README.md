@@ -24,3 +24,4 @@ For conda users:
    torch.cuda.is_avaiable()
    ```
 * conda install -c conda-forge dlib numpy scipy tqdm pillow rospkg opencv empy matplotlib
+ * 用conda安装open可能会导致删掉torchvision，如果有问题，更换为pip
