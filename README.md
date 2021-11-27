@@ -24,4 +24,3 @@ For conda users:
    torch.cuda.is_avaiable()
    ```
 * conda install -c conda-forge dlib numpy scipy tqdm pillow rospkg opencv empy matplotlib
-//
