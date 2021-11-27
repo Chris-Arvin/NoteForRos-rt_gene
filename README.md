@@ -18,10 +18,10 @@ For conda users:
   * pytorch cuda torchvision版本对应查询：https://download.pytorch.org/whl/torch_stable.html
   * 可是尝试用-pytorch -conda-forge -nvidia等 翻墙+强制找官方源
   * 先确认如下三行命令均成功
-   '''
-   import torch \\
-   import torchvision \\
-   torch.cuda.is_avaiable()\\
-   '''
+   ```
+   import torch //
+   import torchvision //
+   torch.cuda.is_avaiable()//
+   ```
 * conda install -c conda-forge dlib numpy scipy tqdm pillow rospkg opencv empy matplotlib
 //
