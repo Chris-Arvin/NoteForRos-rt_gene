@@ -17,5 +17,11 @@ For conda users:
 * conda install -c pytorch pytorch torchvision cudatoolkit=11.0 -c pytorch [替换cuda为显卡对应的版本，先装pytorch，要确认是gpu版本。]
   * pytorch cuda torchvision版本对应查询：https://download.pytorch.org/whl/torch_stable.html
   * 可是尝试用-pytorch -conda-forge -nvidia等 翻墙+强制找官方源
+  * 先确认如下三行命令均成功
+   '''
+   import torch
+   import torchvision
+   torch.cuda.is_avaiable()
+   '''
 * conda install -c conda-forge dlib numpy scipy tqdm pillow rospkg opencv empy matplotlib
 //
