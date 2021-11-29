@@ -15,7 +15,7 @@
 # 安装rt_gene
 For conda users:
 * 用python3.8
-* conda install -c pytorch pytorch torchvision cudatoolkit=11.0 -c pytorch [替换cuda为显卡对应的版本，先装pytorch，要确认是gpu版本。]
+* conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch -c conda-forge [替换cuda为显卡对应的版本，先装pytorch，要确认是gpu版本。]
   * pytorch cuda torchvision版本对应查询：https://download.pytorch.org/whl/torch_stable.html
   * 可是尝试用-pytorch -conda-forge -nvidia等 翻墙+强制找官方源
   * 先确认如下三行命令均成功
