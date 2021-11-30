@@ -1,7 +1,7 @@
 # NoteForRos
 ### python3+anaconda+ros
 * rospkg 包含rospy等模块
-* rosdlib 包含tf2_ros等模块
+* python3和tf、tf2_ros不能共存！
 ---
 * catkin-tools 包含catkin_make所需的工具
 #### optimal
