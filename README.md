@@ -33,3 +33,5 @@ For conda users(我使用的是 python3.7)
    ```
    sudo pip3 install -U catkin_pkg
    ```
+* 关于tf和tf2_ros不能在python3上使用的解决办法：
+* 将使用的文件从python2.7中直接粘贴过来。
