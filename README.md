@@ -30,6 +30,6 @@ For conda users(我使用的是 python3.7)
 * 安装cv-bridge
   * 参照：https://note.youdao.com/ynoteshare/index.html?id=9293c9b0dcfe5a87599a0553e3ae9d60&type=note&_time=1638433866667
   * 如果报错找不到catkin_pkg，输入如下命令
-   ‘’‘
+   ```
    sudo pip3 install -U catkin_pkg
-   ‘’’
+   ```
