@@ -13,8 +13,7 @@
 
 
 # 安装rt_gene
-For conda users:
-* 用python3.8
+For conda users(我使用的是 python3.7)
 * conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch -c conda-forge [替换cuda为显卡对应的版本，先装pytorch，要确认是gpu版本。]
   * pytorch cuda torchvision版本对应查询：https://download.pytorch.org/whl/torch_stable.html
   * 可是尝试用-pytorch -conda-forge -nvidia等 翻墙+强制找官方源
@@ -28,3 +27,9 @@ For conda users:
   * 用conda安装open可能会导致删掉torchvision，如果有问题，更换为pip
   * 用conda安装dlib也可能会导致删掉torchvision。。cao！
   * conda下是opencv，pip下是opencv-python
+* 安装cv-bridge
+  * 参照：https://note.youdao.com/ynoteshare/index.html?id=9293c9b0dcfe5a87599a0553e3ae9d60&type=note&_time=1638433866667
+  * 如果报错找不到catkin_pkg，输入如下命令
+   ‘’‘
+   sudo pip3 install -U catkin_pkg
+   ‘’’
