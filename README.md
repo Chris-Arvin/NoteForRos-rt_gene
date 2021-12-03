@@ -43,7 +43,6 @@ For conda users(我使用的是 python3.7)
   * 开第二个终端，先开conda环境，再import cv_bridge，再开landmark检测和gaze估计：
   ```
   conda activate rt_gene
-  cd Documents
-  .import_cv_bridge
+  . Documents/import_cv_bridge.sh
   roslaunch rt_gene estimate_gaze.launch
   ```
