@@ -34,4 +34,16 @@ For conda users(我使用的是 python3.7)
    sudo pip3 install -U catkin_pkg
    ```
 * 关于tf和tf2_ros不能在python3上使用的解决办法：
-* 将使用的文件从python2.7中直接粘贴过来。
+  * 将使用的文件从python2.7中直接粘贴过来。
+* 启动方式（自用）
+  * 开第一个终端，打开摄像头：
+  ```
+  roslaunch rt_gene start_webcam.launch
+  ```
+  * 开第二个终端，先开conda环境，再import cv_bridge，再开landmark检测和gaze估计：
+  ```
+  conda activate rt_gene
+  cd Documents
+  .import_cv_bridge
+  roslaunch rt_gene estimate_gaze.launch
+  ```
