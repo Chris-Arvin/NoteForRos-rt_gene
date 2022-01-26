@@ -4,12 +4,16 @@
 * python3和tf、tf2_ros不能共存！
 ---
 * catkin-tools 包含catkin_make所需的工具
-#### optimal
+#### optional
 * conda install -c conda-forge ros-rosmsg 包含rosmsg相关内容
 * conda install -c conda-forge ros-sensor-msgs 包含sensor相关的msg
 //安装好ros相关模块后，可编译一个工作空间看看能否正确执行
 ---
-
+#### catkin_pkg+python
+* rosrun .py文件是不需要修改cmakelist的，只需要按照：https://blog.csdn.net/qq_45779334/article/details/108943681
+* 核心：
+  * #!/usr/bin/env python：是为了说明python文件为可执行文件，而不是脚本文件。
+  * chmod a+x xxx.py：添加文件的可执行权限
 
 
 # 安装rt_gene
