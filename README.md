@@ -14,6 +14,9 @@
 * 核心：
   * #!/usr/bin/env python：是为了说明python文件为可执行文件，而不是脚本文件。
   * chmod a+x xxx.py：添加文件的可执行权限
+---
+
+
 
 
 # 安装rt_gene
