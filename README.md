@@ -52,4 +52,5 @@ For conda users(我使用的是 python3.7)
   conda activate rt_gene
   . Documents/import_cv_bridge.sh
   roslaunch rt_gene estimate_gaze.launch
+  rqt_image_view
   ```
