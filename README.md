@@ -45,7 +45,8 @@ For conda users(我使用的是 python3.7)
 * 启动方式（自用）
   * 开第一个终端，打开摄像头：
   ```
-  roslaunch rt_gene start_webcam.launch
+  webcam: roslaunch rt_gene start_webcam.launch
+  realsenseD455: roslaunch realsense2_camera D455_remapped2rt_gene.launch 
   ```
   * 开第二个终端，先开conda环境，再import cv_bridge，再开landmark检测和gaze估计：
   ```
