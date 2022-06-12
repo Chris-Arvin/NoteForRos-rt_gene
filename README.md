@@ -2,7 +2,6 @@
 ### 创建功能包需要注意的
 * add_executable：如果一个cpp调用了其他文件，那么这里要把所有文件都写上
 * target_link_libraries：能加则加
-* 
 ---
 ### python3+anaconda+ros
 * rospkg 包含rospy等模块
